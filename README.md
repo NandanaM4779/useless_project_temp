@@ -1,64 +1,58 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# [Where's My Ball] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [sockit]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Nandana M] - [College of engineering Trivandrum]
+- Member 2: [Shruthy R] - [College of engineering Trivandrum]
 
 ### Project Description
-[2-3 lines about what your project does]
+We built a system that knows exactly where your ball is at all times — not to return it, not to play with it, but simply to admire its existence. Using ultrasonic sensors, trilateration, and PyGame, we’ve d acheived the art of pointless precision.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[The ball’s path is poetry. But without our tech, it’s unread poetry… lost forever to the winds of chance (and gravity).]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[So we built a system to translate the ball’s silent poetry into a visual masterpiece. Using ultrasonic sensors, trilateration, and PyGame, we map every twist, turn, and tumble — preserving its story in real time, so no moment of its epic journey is ever lost to chance (or gravity]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [C for Arduino, Python]
+- [NewPing, Pygame, Pyserial]
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- [Arduino Uno Board, 3 ultrasonic sensors- HC SR04]
+- [Breadboard, Jumper wires]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+pip install pygame
+pip install pyserial
 
 # Run
-[commands]
+python pyall1.py
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1]
+<img width="1714" height="1408" alt="Screenshot 2025-08-09 at 3 13 44 PM 1" src="https://github.com/user-attachments/assets/013e7fa1-eec3-4ca1-af24-0fc523e9e374" />
+This is our code for finding the distance of the ball using each sensor along with the NewPing Library
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2]
+<img width="1746" height="1536" alt="Screenshot 2025-08-09 at 3 17 02 PM 1" src="https://github.com/user-attachments/assets/5f34a4eb-dd13-4e75-8bf2-5152f3b5ba6e" />
+This is our code for finding the x and y coordinates of the ball using a method called trilateration commonly used in robotics.
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
 
 For Hardware:
 
@@ -81,16 +75,9 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://photos.app.goo.gl/PJMTywFMmdbUDRdr6
+The video demonstrates  the points/coordinates being mapped with the help of ultrasonic sensors on pygame as the the ball moves in the thermocol box.
 
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
